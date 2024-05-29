@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  header, section {
+    margin-bottom: 40px;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 20px;
+    color: #e67e22; /* Tonalidad de naranja */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .article {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff3e0; /* Fondo claro en tonalidad de naranja */
+    padding: 20px;
+    border: 1px solid #e67e22;
+    margin-bottom: 20px;
+  }
+  
+  .article img {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #e67e22;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  blockquote {
+    background-color: #fff3e0; /* Fondo claro en tonalidad de naranja */
+    border-left: 5px solid #e67e22;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  blockquote footer {
+    text-align: right;
+    color: #e67e22;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  ul li {
+    margin: 10px 0;
+    color: #e67e22; /* Tonalidad de naranja */
+  }
+  
+  @media (min-width: 768px) {
+    .article {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .article img {
+      flex: 1;
+      max-width: 50%;
+      margin-right: 20px;
+    }
+  
+    .article div {
+      flex: 2;
+    }
+  }
+  
